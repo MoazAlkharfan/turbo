@@ -8,7 +8,10 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "passThroughEnv": [
+        "USERPROFILE"
+      ]
     },
     "lint": {},
     "clean": {
